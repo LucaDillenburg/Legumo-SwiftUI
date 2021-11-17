@@ -14,6 +14,9 @@
 		8DDC903827446EC0006F8BA0 /* LegumoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DDC903727446EC0006F8BA0 /* LegumoTests.swift */; };
 		8DDC904227446EC0006F8BA0 /* LegumoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DDC904127446EC0006F8BA0 /* LegumoUITests.swift */; };
 		8DDC904427446EC0006F8BA0 /* LegumoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DDC904327446EC0006F8BA0 /* LegumoUITestsLaunchTests.swift */; };
+		8DDC905127447293006F8BA0 /* RestaurantSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DDC905027447293006F8BA0 /* RestaurantSection.swift */; };
+		8DDC90532744758F006F8BA0 /* MenuItemCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DDC90522744758F006F8BA0 /* MenuItemCard.swift */; };
+		8DDC905827449F00006F8BA0 /* utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DDC905727449F00006F8BA0 /* utils.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +47,9 @@
 		8DDC903D27446EC0006F8BA0 /* LegumoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LegumoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8DDC904127446EC0006F8BA0 /* LegumoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LegumoUITests.swift; sourceTree = "<group>"; };
 		8DDC904327446EC0006F8BA0 /* LegumoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LegumoUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		8DDC905027447293006F8BA0 /* RestaurantSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantSection.swift; sourceTree = "<group>"; };
+		8DDC90522744758F006F8BA0 /* MenuItemCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuItemCard.swift; sourceTree = "<group>"; };
+		8DDC905727449F00006F8BA0 /* utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = utils.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,10 +100,12 @@
 		8DDC902527446EBF006F8BA0 /* Legumo */ = {
 			isa = PBXGroup;
 			children = (
+				8DDC905627449EAE006F8BA0 /* Views */,
 				8DDC902627446EBF006F8BA0 /* LegumoApp.swift */,
 				8DDC902827446EBF006F8BA0 /* ContentView.swift */,
 				8DDC902A27446EC0006F8BA0 /* Assets.xcassets */,
 				8DDC902C27446EC0006F8BA0 /* Preview Content */,
+				8DDC905727449F00006F8BA0 /* utils.swift */,
 			);
 			path = Legumo;
 			sourceTree = "<group>";
@@ -125,6 +133,15 @@
 				8DDC904327446EC0006F8BA0 /* LegumoUITestsLaunchTests.swift */,
 			);
 			path = LegumoUITests;
+			sourceTree = "<group>";
+		};
+		8DDC905627449EAE006F8BA0 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				8DDC905027447293006F8BA0 /* RestaurantSection.swift */,
+				8DDC90522744758F006F8BA0 /* MenuItemCard.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,8 +274,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8DDC905827449F00006F8BA0 /* utils.swift in Sources */,
 				8DDC902927446EBF006F8BA0 /* ContentView.swift in Sources */,
 				8DDC902727446EBF006F8BA0 /* LegumoApp.swift in Sources */,
+				8DDC905127447293006F8BA0 /* RestaurantSection.swift in Sources */,
+				8DDC90532744758F006F8BA0 /* MenuItemCard.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
